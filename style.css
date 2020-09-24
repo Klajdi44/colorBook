@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetca, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.info {
+  text-align: center;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+
+
+
+#outlines,
+#eye {
+  cursor: not-allowed;
+}
+
+
+.color:hover {
+  transform: skewX(2deg);
+  cursor: pointer;
+}
+
+.input {
+  border: 0;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  cursor: pointer;
+}
+
